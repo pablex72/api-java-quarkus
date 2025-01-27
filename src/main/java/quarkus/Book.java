@@ -21,6 +21,16 @@ public class Book {
 
     private int numPages;
 
+    private String genre;
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
     private LocalDate pubDate;
 
     private String description;
